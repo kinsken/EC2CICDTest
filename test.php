@@ -7,6 +7,7 @@
 <body>
 
 <p>今日の日付を表示します</p>
+<p>Success!!!<p>
 
 <?php
 date_default_timezone_set('Asia/Tokyo');
