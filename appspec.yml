@@ -3,16 +3,16 @@ os: linux
 files:
   - source: /test.php
     destination: /usr/share/nginx/html/
-hooks:
+# hooks:
   # ApplicationStop:
   #   - location: scripts/stop_server
   #     timeout: 300
   #     runas: root
-  AfterInstall:
+  # AfterInstall:
     # - location: scripts/install_dependencies
     #   timeout: 300
     #   runas: root
-    - location: scripts/start_server
-      timeout: 60
-      runas: root
+    # - location: scripts/start_server
+      # timeout: 60
+      # runas: root
 
